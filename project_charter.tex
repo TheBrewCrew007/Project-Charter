@@ -22,18 +22,21 @@
 \usepackage{sectsty}
 \usepackage[compact]{titlesec} 
 \usepackage[tablegrid]{vhistory}
+\usepackage{url}
+
+
 \allsectionsfont{\color{accentcolor}\scshape\selectfont}
 
 %%% Definitions
 \definecolor{accentcolor}{rgb}{0.0,0.0,0.5} 
-\newcommand{\teamname}{Team Name}
-\newcommand{\productname}{Product Name}
+\newcommand{\teamname}{The Brew Crew}
+\newcommand{\productname}{Beverage Management}
 \newcommand{\coursename}{CSE 4316: Senior Design I}
-\newcommand{\semester}{Fall 2018}
+\newcommand{\semester}{Summer 2020}
 \newcommand{\docname}{Project Charter}
 \newcommand{\department}{Department of Computer Science \& Engineering}
 \newcommand{\university}{The University of Texas at Arlington}
-\newcommand{\authors}{Alan Turing \\ Grace Hopper \\ John Von Neumann \\ Ada Lovelace \\ Charles Babbage}
+\newcommand{\authors}{Kunal Samant \\ Nirjal Phaiju \\ Sima Raymajhi \\ Bishal Paudel \\ Lokendra Chettri}
 
 %%% Headers and footers
 \usepackage{fancyhdr}
@@ -69,7 +72,7 @@
 \vspace{0.5 in}
 \begin{figure}[h!]
 	\centering
-   	\includegraphics[width=0.60\textwidth]{images/test_image}
+   	\includegraphics[width=0.40\textwidth]{images/beverage}
 \end{figure}
 \vspace{0.5 in}
 {\centering \huge \color{accentcolor} \sc \textbf{\teamname \\ \productname} \par}
@@ -84,11 +87,10 @@
 
 %%% Revision History
 \begin{versionhistory}
-  	\vhEntry{0.1}{10.01.2018}{GH}{document creation}
-  	\vhEntry{0.2}{10.05.2018}{AT|GH}{complete draft}
-  	\vhEntry{0.3}{10.12.2018}{AT|GH}{release candidate 1}
-  	\vhEntry{1.0}{10.20.2018}{AT|GH|CB}{official release}
-  	\vhEntry{1.1}{10.31.2018}{AL}{added customer change requests}
+	  \vhEntry{0.1}{07.08.2020}{KS}{document creation}
+	  \vhEntry{0.2}{07.09.2020}{SR, NP, BP, LC}{sections added (4,7,8,9,10,13 left)}
+	  \vhEntry{0.3}{07.10.2020}{NP, LC}{sections added (4,13 left)}
+	  \vhEntry{0.4}{07.11.2020}{SR, BP, NP, LC, KS}{sections 4 and 13 added}
 \end{versionhistory}
 \newpage
 
@@ -135,8 +137,9 @@
 \newpage
 
 %%% References
-\bibliographystyle{plain}
-\bibliographystyle{reference/IEEEtran_custom}
+\linespread{1.3}\selectfont
+\bibliographystyle{IEEEtran}
+\section{References}
 \bibliography{reference/refs}{}
 
 \end{document}
